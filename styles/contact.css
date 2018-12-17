@@ -1,0 +1,68 @@
+body{
+  background-color:#fdf5e6;
+}
+
+
+.title{
+  height:100%;
+  width:center;
+  
+  font-family:Snell Roundhand, cursive	;
+  color: #35bdb8;
+  text-align:center;
+  font-size:145px;
+  positon: fixed;
+}
+.number{
+  text-align:center;
+  color:#5d4842;
+  position:relative;
+  bottom:70px;
+  font-family: snell roundhand, cursive;
+  font-size:55px;
+}
+.number:hover {
+  color:#35bdb8;
+}
+#address{
+  text-align:center;
+  font-family: snell roundhand, cursive;
+  font-size:50px;
+  color:#5d4832;
+  position:relative;
+  bottom: 10px;
+  text-decoration:none;
+}
+
+#email{
+  text-align:center;
+  font-family: snell roundhand,cursive;
+  font-size: 55px;
+  color:#35bdb8;
+  position:relative;
+  bottom:55px
+}
+.navigate{
+  height:;
+  width: 120px;
+  position: fixed;
+  z-index:1 ;
+  top:60px;
+  left:0 ;
+  background-color: #5d4842;
+  oveflow-x: hidden;   ;
+  padding-top: 2px;
+  border:3px solid;
+  border-radius:25px
+}
+.navigate a{
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-family: Snell Roundhand, cursive;
+  font-size: 25px;
+  color: #35bdb8;
+  display: block;
+}
+.navigate a:hover {
+  color: #fdf5e6;
+}
